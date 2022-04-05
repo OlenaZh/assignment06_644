@@ -32,11 +32,27 @@ window.addEventListener('load', (e) => {
         let ext = `Extension: ${$('extension').value}`;
         let email = `Email: ${$('email').value}`;
         let dept = `Department: ${$('department').value}`;
+//OR
+/*let id = window.document.getElementById('id').value;
+let name = window.document.getElementById('name').value;
+let ext = window.document.getElementById('extension').value;
+let email = window.document.getElementById('email').value;
+let dep = window.document.getElementById('department').value;*/
+
 // GET THE LOGINDETAILS OUTPUT ELEMENT FROM THE PARENT PAGE
         let parent = window.opener.document.getElementById('loginDetails');
 
 // SET THE TEXT OF THE LOGINDETAILS ELEMENT TO THE ABOVE SET VARIABLES        
         parent.innerHTML = `${id}<br>${name}<br>${ext}<br>${email}<br>${dept}`;
+//OR
+    /*let myOutput = window.opener.document.getElementById('loginDetails');
+
+    myOutput.innerHTML = "ID: " + id +'<br>' + 
+    "Name: " + name + '<br>' +
+    "Extension: " + ext + '<br>' + 
+    "Email: " + email + '<br>' +
+    "Department: " + dep;*/
+
 
 // CLOSE THE POPUP
         window.close();
