@@ -29,7 +29,7 @@ window.addEventListener('load', (e) => {
 // SET THOSE VARIABLES TO WHATEVER THE USER ENTERS INTO THE FORM ELEMENTS
         let id = `ID: ${$('id').value}`;
         let name = `Name: ${$('name').value}`;
-        let ext = `Extension: ${$('extantion').value}`;
+        let ext = `Extension: ${$('extention').value}`;
         let email = `Email: ${$('email').value}`;
         let dept = `Department: ${$('department').value}`;
 // GET THE LOGINDETAILS OUTPUT ELEMENT FROM THE PARENT PAGE
