@@ -1,5 +1,14 @@
 // HANDLE THE LOAD EVENT OF THE WINDOW
+window.addEventListener('load', () => {
 
 // HANDLE THE CLICK EVENT FOR THE BTNADDEMPLOYEE BUTTON
 
-// OPEN THE ADD-EMPLOYEE.HTML PAGE WITHIN A POPUP
+    document.getElementById('btnAddEmployee').addEventListener('click', () => {
+
+// OPEN THE ADD-EMPLOYEE.HTML PAGE WITHIN A POPUP        
+        window.open('add-employee.html', 'addEmployee', 'resizable = yes', 'width=800, height=600');
+    });
+});
+
+
+
