@@ -16,6 +16,11 @@ window.addEventListener('load', (e) => {
         return document.getElementById(id);
     };
 
+    //OR can do this way
+    //const $ = (id) => document.getElementById(id);
+        
+
+
 // HANDLE THE CANCEL BUTTON. WHEN THE USER CLICKS THIS BUTTON, CLOSE THE WINDOW
     $('cancel').addEventListener('click', () => {
         window.close();
