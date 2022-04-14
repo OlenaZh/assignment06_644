@@ -43,8 +43,14 @@ let dep = window.document.getElementById('department').value;*/
         let parent = window.opener.document.getElementById('loginDetails');
 
 // SET THE TEXT OF THE LOGINDETAILS ELEMENT TO THE ABOVE SET VARIABLES        
-        parent.innerHTML = `${id}<br>${name}<br>${ext}<br>${email}<br>${dept}`;
+        parent.innerHTML = 
+                           `${id}<br>
+                            ${name}<br>
+                            ${ext}<br>
+                            ${email}
+                            <br>${dept}`;
 //OR
+                            
     /*let myOutput = window.opener.document.getElementById('loginDetails');
 
     myOutput.innerHTML = "ID: " + id +'<br>' + 
